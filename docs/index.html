@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOaRfHt8REszTOYd_ImkPIgQc7eiowKjY" defer></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/script.js"></script>
-	<title>Gulp-проект</title>
+	<title>BOUNCY</title>
 </head>
 <body>
 	<div class="wrapper">
@@ -34,16 +35,13 @@
 		<div class="mainblock">
 			<div class="mainblock__content">
 				<div class="container">
-					<a href="" class="mainblock__logo">
-						<img src="img/logo.png" alt="">
-					</a>
 					<div class="mainblock__text">
 						<div class="mainblock__title">We Are Code Cafe</div>
 						<div class="mainblock__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</div>
 					</div>
-					<div class="mainblock__footer">
-						<a href=".content" class="mainblock__arrow goto"></a>
-					</div>
+				</div>
+				<div class="mainblock__footer">
+					<a href=".content" class="mainblock__arrow goto"></a>
 				</div>
 			</div>
 			<div class="mainblock__image ibg">
@@ -116,7 +114,569 @@
 					<div class="footer-block__image ibg"><img src="img/projects/footer.png"></div>
 				</div>
 			</div>
+			<div class="services">
+				<div class="container">
+					<div class="services__title title">Our Services</div>
+					<div class="services__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<div class="services__row">
+						<div class="services__column">
+							<div class="services__items">
+								<div class="services__item"><img src="img/services/01.png" alt=""></div>
+								<div class="services__item active"><img src="img/services/02.png" alt=""></div>
+								<div class="services__item"><img src="img/services/03.png" alt=""></div>
+								<div class="services__item"><img src="img/services/04.png" alt=""></div>
+							</div>
+							<div class="services__text">
+								<div class="services__label">Graphic Design</div>
+								<div class="services__label services__label_2">At vero eos et accusamus et <span class="services__label_color">iusto</span> odio dignissimos <span class="services__label_bold">ducimus</span> qui blanditiis praesentium voluptatum deleniti</div>
+								<div class="services__label services__label_3">quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, <span class="services__label_color">similique sunt</span> in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__body">
+								<div class="services__skils">
+									<div class="services__skils-Svg" id="skils-0"></div>
+									<div class="services__skils-Label">Branding</div>
+								</div>
+								<div class="services__skils">
+									<div class="services__skils-Svg" id="skils-1"></div>
+									<div class="services__skils-Label">Web Design</div>
+								</div>
+								<div class="services__skils">
+									<div class="services__skils-Svg" id="skils-2"></div>
+									<div class="services__skils-Label">UI/UX</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="impresed">
+				<div class="impresed__body">
+					<div class="container">
+						<div class="impresed__row">
+							<div class="impresed__column">
+								<div class="impresed__content">
+									<div class="impresed__title">Impressed ?</div>
+									<div class="impresed__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</div>
+									<div class="impresed__name">- Abdullah Noman</div>
+									<div class="impresed__post">Creatice Director, <span class="impresed__post_color">Code Cafe</span></div>
+								</div>
+							</div>
+							<div class="impresed__column impresed__column_2">
+								<div class="impresed__logo"><img src="img/impresed/logo.png" alt=""></div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="impresed__image ibg"><img src="img/impresed/bg.png" alt=""></div>
+			</div>
+			<div class="portfolio">
+				<div class="container">
+					<div class="portfolio__title title">THE PORTFOLIO</div>
+					<div class="portfolio__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<nav class="portfolio__filter filter">
+						<ul class="filter__list">
+							<li data-filter="1" class="filter__item active">All Works</li>
+							<li data-filter="2" class="filter__item">Print</li>
+							<li data-filter="3" class="filter__item">Identity</li>
+							<li data-filter="4" class="filter__item">Branding</li>
+							<li data-filter="5" class="filter__item">Web</li>
+							<li data-filter="6" class="filter__item">HTML</li>
+							<li data-filter="7" class="filter__item">Wordpress</li>
+						</ul>
+					</nav>
+					<div class="portfolio__items">
+						<div class="portfolio__row">
+							<div class="portfolio__column f_2">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/01.jpg" class="portfolio__item">
+									<img src="img/portfolio/01.jpg" alt="">
+								</a>
+							</div>
+							<div class="portfolio__column f_3">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/05.jpg" class="portfolio__item"><img src="img/portfolio/05.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_5">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/09.jpg" class="portfolio__item"><img src="img/portfolio/09.jpg" alt=""></a>
+							</div>
+						</div>
+						<div class="portfolio__row">
+							<div class="portfolio__column f_2">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/02.jpg" class="portfolio__item"><img src="img/portfolio/02.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_4">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/06.jpg" class="portfolio__item"><img src="img/portfolio/06.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_6">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/10.jpg" class="portfolio__item"><img src="img/portfolio/10.jpg" alt=""></a>
+							</div>
+						</div>
+						<div class="portfolio__row">
+							<div class="portfolio__column f_3">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/03.jpg" class="portfolio__item"><img src="img/portfolio/03.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_5">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/07.jpg" class="portfolio__item"><img src="img/portfolio/07.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_7">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/11.jpg" class="portfolio__item"><img src="img/portfolio/11.jpg" alt=""></a>
+							</div>
+						</div>
+						<div class="portfolio__row">
+							<div class="portfolio__column f_4">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/04.jpg" class="portfolio__item"><img src="img/portfolio/04.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_6">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/08.jpg" class="portfolio__item"><img src="img/portfolio/08.jpg" alt=""></a>
+							</div>
+							<div class="portfolio__column f_7">
+								<div class="portfolio__hoverInfo hoverInfo">
+									<div class="hoverInfo__body">
+										<div class="hoverInfo__title">TITLE HERE</div>
+										<div class="hoverInfo__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+										<div class="hoverInfo__buttons">
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/01.png" alt=""></a>
+											<a href="" class="hoverInfo__button"><img src="img/portfolio/icons/02.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<a href="img/portfolio/12.jpg" class="portfolio__item"><img src="img/portfolio/12.jpg" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio__footer footer-block">
+						<div class="footer-block__body">
+							<div class="footer-block__title">At vero eos et <span class="footer-block__title_bold">accusamus</span> et iusto odio dignissimos ducimus qui blanditiis.</div>
+							<a href="#" class="footer-block__button btn">Submit Now</a>
+						</div>
+						<div class="footer-block__image ibg"><img src="img/portfolio/icons/footer-bg.png"></div>
+					</div>
+				</div>
+			</div>
+			<div class="team">
+				<div class="container">
+					<div class="team__title title">THE TEAM</div>
+					<div class="team__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<div class="team__slider slider">
+						<div class="team__item">
+							<div class="team__image">
+								<img src="img/team/01.jpg" alt="">
+							</div>
+							<div class="team__body">
+								<div class="team__person">
+									<div class="team__name">Abdullah Noman</div>
+									<div class="team__post">Creative Director, Code Cafe</div>
+								</div>
+								<div class="team__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+								<div class="team__skils">
+									<div class="team__skil skil">
+										<div class="skil__label">BRANDING</div>
+										<div class="skil__progress" id="skils-team-0"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">Web Design</div>
+										<div class="skil__progress" id="skils-team-1"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">User Interface</div>
+										<div class="skil__progress" id="skils-team-2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="team__item">
+							<div class="team__image">
+								<img src="img/team/02.jpg" alt="">
+							</div>
+							<div class="team__body">
+								<div class="team__person">
+									<div class="team__name">Abdullah Noman</div>
+									<div class="team__post">Creative Director, Code Cafe</div>
+								</div>
+								<div class="team__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+								<div class="team__skils">
+									<div class="team__skil skil">
+										<div class="skil__label">BRANDING</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-3"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">Web Design</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-4"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">User Interface</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-5"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="team__item">
+							<div class="team__image">
+								<img src="img/team/03.jpg" alt="">
+							</div>
+							<div class="team__body">
+								<div class="team__person">
+									<div class="team__name">Abdullah Noman</div>
+									<div class="team__post">Creative Director, Code Cafe</div>
+								</div>
+								<div class="team__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+								<div class="team__skils">
+									<div class="team__skil skil">
+										<div class="skil__label">BRANDING</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-6"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">Web Design</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-7"></div>
+									</div>
+									<div class="team__skil skil">
+										<div class="skil__label">User Interface</div>
+										<div class="skil__percent"></div>
+										<div class="skil__progress" id="skils-team-8"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="team__footer footer-block">
+					<div class="footer-block__body">
+						<div class="footer-block__title">Already Loved Us? Let’s talk!</div>
+						<a href="#" class="footer-block__button btn">Contact Us</a>
+					</div>
+					<div class="footer-block__image ibg"><img src="img/team/footer.png"></div>
+				</div>
+			</div>
+			<div class="testimonial">
+				<div class="container">
+					<div class="testimonial__title title">Testimonials</div>
+					<div class="testimonial__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<div class="testimonial__slider slider-testimonial">
+						<div class="testimonial__item">
+							<div class="testimonial__image">
+								<img src="img/testimonial/01.jpg" alt="">
+							</div>
+							<div class="testimonial__body">
+								<div class="testimonial__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</div>
+								<div class="testimonial__name">Anne Hathaway</div>
+								<div class="testimonial__post">FOUNDER, ARTWAYS BD</div>
+							</div>
+						</div>
+						<div class="testimonial__item">
+							<div class="testimonial__image">
+								<img src="img/testimonial/02.jpg" alt="">
+							</div>
+							<div class="testimonial__body">
+								<div class="testimonial__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</div>
+								<div class="testimonial__name">Emily Blunt</div>
+								<div class="testimonial__post">FOUNDER, ARTWAYS BD</div>
+							</div>
+						</div>
+						<div class="testimonial__item">
+							<div class="testimonial__image">
+								<img src="img/testimonial/03.jpg" alt="">
+							</div>
+							<div class="testimonial__body">
+								<div class="testimonial__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</div>
+								<div class="testimonial__name">Jessica Chastain</div>
+								<div class="testimonial__post">FOUNDER, ARTWAYS BD</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+				<div class="news__body">
+					<div class="container">
+						<div class="news__title title">LATEST NEWS</div>
+						<div class="news__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+						<div class="news__slider news-slider">
+							<div class="news__item">
+								<div class="news__label">The trending Landing Pages</div>
+								<div class="news__author">by <span>Kabir Uddin</span></div>
+								<div class="news__activity">6950 Likes - 243 Comments - 703 shares</div>
+								<div class="news__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...  </div>
+								<button class="news__button">+ Read More</button>
+							</div>
+							<div class="news__item">
+								<div class="news__label">The trending Landing Pages</div>
+								<div class="news__author">by <span>Kabir Uddin</span></div>
+								<div class="news__activity">6950 Likes - 243 Comments - 703 shares</div>
+								<div class="news__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. Et harum quidem rerum facilis est et expedita distinctio...  </div>
+								<button class="news__button">+ Read More</button>
+							</div>
+							<div class="news__item">
+								<div class="news__label">The trending Landing Pages</div>
+								<div class="news__author">by <span>Kabir Uddin</span></div>
+								<div class="news__activity">6950 Likes - 243 Comments - 703 shares</div>
+								<div class="news__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio...  </div>
+								<button class="news__button">+ Read More</button>
+							</div>
+						</div>
+						<div id="container-dots"></div>
+					</div>
+				</div>
+				<div class="news__image ibg"><img src="img/news/bg.png" alt=""></div>
+			</div>
+			<div class="price">
+				<div class="container">
+					<div class="price__title title">Our Price</div>
+					<div class="price__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<div class="price__body">
+						<div class="price__item">
+							<div class="price__label">PREMIUM</div>
+							<div class="price__content price__content_1">
+								<div class="price__count">$ 60</div>
+								<div class="price__time">Per Month</div>
+							</div>
+							<div class="price__content price__content_2">
+								<div class="price__text">
+									<p>Full Branding</p>
+									<p>Project Management</p>
+									<p>Unlimited Revisions</p>
+									<p>24/7 h Service</p>
+									<p>Free Domain</p>
+									<p>Free Hosting</p>
+								</div>
+							</div>
+							<a href="" class="price__button"><span>Let’s Start</span></a>
+						</div>
+						<div class="price__item">
+							<div class="price__label">GOLD</div>
+							<div class="price__content price__content_1">
+								<div class="price__count">$ 70</div>
+								<div class="price__time">Per Month</div>
+							</div>
+							<div class="price__content price__content_2">
+								<div class="price__text">
+									<p>Full Branding</p>
+									<p>Project Management</p>
+									<p>Unlimited Revisions</p>
+									<p>24/7 h Service</p>
+									<p>Free Domain</p>
+									<p>Free Hosting</p>
+								</div>
+							</div>
+							<a href="" class="price__button"><span>Let’s Start</span></a>
+						</div>
+						<div class="price__item">
+							<div class="price__label">EXCLUSIVE</div>
+							<div class="price__content price__content_1">
+								<div class="price__count">$ 80</div>
+								<div class="price__time">Per Month</div>
+							</div>
+							<div class="price__content price__content_2">
+								<div class="price__text">
+									<p>Full Branding</p>
+									<p>Project Management</p>
+									<p>Unlimited Revisions</p>
+									<p>24/7 h Service</p>
+									<p>Free Domain</p>
+									<p>Free Hosting</p>
+								</div>
+							</div>
+							<a href="" class="price__button"><span>Let’s Start</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="subscribe">
+				<div class="subscribe__body">
+					<div class="subscribe__title title">Subscribe us</div>
+					<div class="subscribe__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<form action="#" method="post" class="subscribe__form">
+						<input type="text" class="subscribe__input" autocomplete="off" placeholder="Email Address">
+						<button class="subscribe__button" type="submit">submit</button>
+					</form>
+				</div>
+				<div class="subscribe__image ibg"><img src="img/subscribe/bg.png" alt=""></div>
+			</div>
+			<div class="contact">
+				<div class="container">
+					<div class="contact__title title">Contact Us</div>
+					<div class="contact__subtitle subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+					<div class="contact__row">
+						<div class="contact__column">
+							<div class="contact__icon contact__icon_1"><img src="img/contact/icon/01.png" alt=""></div>
+							<div class="contact__body">
+								<div class="contact__label">EMAIL</div>
+								<a href="mailto:hello@codecafe.com" class="contact__link">hello@codecafe.com</a>
+								<a href="mailto:Personal@codecafe.com" class="contact__link">Personal@codecafe.com</a>
+							</div>
+						</div>
+						<div class="contact__column">
+							<div class="contact__icon  contact__icon_2"><img src="img/contact/icon/01.png" alt=""></div>
+							<div class="contact__body">
+								<div class="contact__label">OUR OFFICE</div>
+								<a href="https://www.google.com.ua/maps/@50.497763,30.5079147,14z?hl=ru" class="contact__link">240 Bhatikhana, 820 Barisal Bangladesh</a>
+							</div>
+						</div>
+						<div class="contact__column">
+							<div class="contact__icon contact__icon_3"><img src="img/contact/icon/01.png" alt=""></div>
+							<div class="contact__body">
+								<div class="contact__label">PHONE</div>
+								<a href="tel:hello@codecafe.com" class="contact__link">+00 11 66 99 66 44</a>
+								<a href="tel:Personal@codecafe.com" class="contact__link">+11 99 66 44 065</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contactForm">
+				<div class="container">
+					<form action="" class="contactForm__form" method="post">
+						<div class="contactForm__row contactForm__row_1">
+							<input type="text" placeholder="Your name">
+							<input type="text" placeholder="Email address">
+							<input type="text" placeholder="Subject">
+						</div>
+						<div class="contactForm__row contactForm__row_2">
+							<textarea name="" id=""></textarea>
+						</div>
+						<div class="contactForm__row">
+							<div class="contactForm__button">SUBMIT NOW</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="maps">
+				<div class="maps__element" id="map"></div>
+				<div class="maps__bg">
+					<div class="maps__item">
+						<a href="" class="maps__link">FIND US ON THE MAP</a>
+						<span class="maps__button"></span>
+					</div>
+					
+				</div>
+			</div>
 		</div>
+		<footer class="footer">
+			<div class="footer__logo">Bouncy</div>
+			<div class="footer__author">Copyright 2015. All rights Reserved</div>
+			<div class="footer__social">
+				<img src="img/footer/01.png" alt="">
+				<img src="img/footer/02.png" alt="">
+				<img src="img/footer/03.png" alt="">
+				<img src="img/footer/04.png" alt="">
+				<img src="img/footer/05.png" alt="">
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
